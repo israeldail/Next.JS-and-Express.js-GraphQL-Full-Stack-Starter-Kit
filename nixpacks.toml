@@ -1,12 +1,27 @@
 [phases]
-build = "npm install && npm run build"
 
-[backend]
-install = "cd backend && npm install"
-build = "cd backend && npm run build"
-start = "cd backend && npm start"
+# Backend configuration
+[phases.backend.install]
+run = "npm install"
+working_directory = "./backend"
 
-[frontend]
-install = "cd frontend && npm install"
-build = "cd frontend && npm run build"
-start = "cd frontend && npm start"
+[phases.backend.build]
+run = "npm run build"
+working_directory = "./backend"
+
+[phases.backend.start]
+run = "npm start"
+working_directory = "./backend"
+
+# Frontend configuration
+[phases.frontend.install]
+run = "npm install"
+working_directory = "./frontend"
+
+[phases.frontend.build]
+run = "npm run build"
+working_directory = "./frontend"
+
+[phases.frontend.start]
+run = "npm start"
+working_directory = "./frontend"
