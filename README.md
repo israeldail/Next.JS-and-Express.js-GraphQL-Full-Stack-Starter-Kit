@@ -1,1 +1,1 @@
-# Next.JS-and-Express.js-GraphQL-Full-Stack-Starter-Kit
+# Next.JS + Express.js, GraphQL, Prisma Starterkit
