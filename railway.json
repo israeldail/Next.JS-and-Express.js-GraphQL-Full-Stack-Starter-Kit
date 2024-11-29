@@ -3,11 +3,15 @@
     "services": [
       {
         "serviceName": "backend",
-        "path": "backend"
+        "path": "backend",
+        "buildCommand": "npm install && npm run build",
+        "startCommand": "npm start"
       },
       {
         "serviceName": "frontend",
-        "path": "frontend"
+        "path": "frontend",
+        "buildCommand": "npm install && npm run build",
+        "startCommand": "npm start"
       }
     ]
   }
