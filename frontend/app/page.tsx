@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Example from "./components/Example";
 
 export default function Home() {
   return (
     <div>
-      <h1>Boilerplate text</h1>
+      <Example />
     </div>
   );
 }
