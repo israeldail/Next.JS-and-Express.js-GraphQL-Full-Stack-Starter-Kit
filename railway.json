@@ -2,11 +2,11 @@
     "services": [
       {
         "name": "backend",
-        "path": "backend"
+        "path": "./backend"
       },
       {
         "name": "frontend",
-        "path": "frontend"
+        "path": "./frontend"
       }
     ]
   }
