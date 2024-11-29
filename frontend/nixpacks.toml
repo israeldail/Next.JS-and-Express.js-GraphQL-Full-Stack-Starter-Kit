@@ -1,7 +1,0 @@
-[phases]
-install = "npm install"
-build = "npm run build"  # Next.js build
-start = "npm run start"  # Next.js start script
-
-[environment]
-NODE_ENV = "production"

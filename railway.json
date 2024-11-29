@@ -3,11 +3,11 @@
     "services": [
       {
         "serviceName": "backend",
-        "path": "./backend" 
+        "path": "backend"
       },
       {
         "serviceName": "frontend",
-        "path": "./frontend" 
+        "path": "frontend"
       }
     ]
   }
