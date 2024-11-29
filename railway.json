@@ -1,12 +1,14 @@
 {
+  "build": {
     "services": [
       {
-        "name": "backend",
-        "path": "./backend"
+        "serviceName": "backend",
+        "path": "./backend" // Path to your backend service
       },
       {
-        "name": "frontend",
-        "path": "./frontend"
+        "serviceName": "frontend",
+        "path": "./frontend" // Path to your frontend service
       }
     ]
   }
+}
